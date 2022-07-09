@@ -1,0 +1,19 @@
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-img{
+  width:100%;
+  height: 100%;
+}
+.working-img{
+  width:90%;
+}
+.philosophy{
+  width: 50%;
+}
+.background{
+  width:50%;
+}

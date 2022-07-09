@@ -41,7 +41,7 @@ function Navbar() {
           <li className='nav-item'>
             <a
               href='#'
-              onClick={(close) => window.scrollTo(0, 0)}
+              onClick={() => window.scrollTo(0, 0)}
               className='nav-links'>
               HOME
             </a>
