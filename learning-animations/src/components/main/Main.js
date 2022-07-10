@@ -26,21 +26,24 @@ function Main() {
   return (
     <div className='grid-container'>
       {/* herosection start */}
-      <div className='grid grid-1'>
+      <div className='grid-1'>
         <img
           src={HeroImg}
           alt='hero-img'
           className='hero-img'
           style={{ transform: `translateY(-${offsetY * 0.05}px)` }}
         />
-        <a href='#about'>
-          <img
-            src={PageNum}
-            alt='pg-1'
-            className='pg-1'
-            style={{ transform: `translateY(-${offsetY * 0.35}px)` }}
-          />
-        </a>{" "}
+        <div className='pg-1-next'>
+          {" "}
+          <a href='#about'>
+            <img
+              src={PageNum}
+              alt='pg-1'
+              className='pg-1'
+              style={{ transform: `translateY(-${offsetY * 0.35}px)` }}
+            />
+          </a>{" "}
+        </div>
       </div>
       {/* hero section end */}
 
@@ -50,10 +53,10 @@ function Main() {
       <div id='about' className='grid grid-3'>
         <About />
       </div>
-      <div className='grid grid-4'>
+      <div id='services' className='grid grid-4'>
         <h1>section-4</h1>
       </div>
-      <div className='grid grid-5'>
+      <div id='services' className='grid grid-5'>
         <h1>section-5</h1>
       </div>
       <div className='grid grid-6'>

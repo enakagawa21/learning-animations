@@ -1,6 +1,7 @@
 .para-bg{
   width: 100%;
-  height: 500px;
+  max-height: 800px;
+  overflow: hidden;
 }
 
 .para-bg img {

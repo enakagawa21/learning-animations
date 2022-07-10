@@ -1,5 +1,4 @@
 import "./About.css";
-import isWorkingImg from "../../assets/isWorkingImg.svg";
 import PageNum2 from "../../assets/pg-2.svg";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
@@ -49,17 +48,12 @@ function About() {
       className='about-container'
       initial={"offScreen"}
       whileInView={"onScreen"}>
-      <motion.div className='about-img' variants={topContent}>
-        <motion.img
-          className='working-img'
-          src={isWorkingImg}
-          alt='about'></motion.img>
-      </motion.div>
+     
 
       <motion.div className='philosophy' variants={leftContent}>
         <motion.h1>Philosophy</motion.h1>
         <motion.p>
-          My intention is to build user freindly interfaces that that are easy
+          My intention is to build user freindly interfaces that are easy
           to navigate. My goal is simple, create and be creative. It is my
           attention to detail that sets me apart from other developers, and that
           attention to detail comes through in my work.
@@ -77,11 +71,11 @@ function About() {
         </motion.p>
       </motion.div>
       <motion.div  className='pg-2'>
-      <a href='#about'>
+      <a href='#services'>
           <img
             src={PageNum2}
             alt='pg-1'
-            style={{ transform: `translateY(-${offsetY * 0.35}px)` }}
+            // style={{ transform: `translateY(-${offsetY * 0.35}px)` }}
           />
         </a>
       </motion.div>

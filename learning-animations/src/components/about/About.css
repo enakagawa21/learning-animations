@@ -1,19 +1,23 @@
 .about-container{
+  padding-top: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  text-align: center;
 }
-.about-img{
-  width:100%;
-  height: 100%;
-}
-.working-img{
-  width:90%;
-}
+
 .philosophy{
-  width: 50%;
+  width: 30%;
 }
 .background{
-  width:50%;
+  width:30%;
+}
+.pg-2{
+  width: 100%;
+  height: 200px;
+}
+.pg-2 img{
+  width:100px;
+  align-self: flex-end;
 }
